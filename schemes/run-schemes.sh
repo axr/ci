@@ -11,5 +11,5 @@ do
     cd "$working_directory"
 
     dir=$(dirname "$0")
-    "$dir/$scheme.sh"
+    "$dir/$scheme_name.sh"
 done
