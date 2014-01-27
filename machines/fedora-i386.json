@@ -1,0 +1,7 @@
+{
+    "os": "fedora"
+    "version": 17
+    "architecture": "i386"
+    "setupScript": "fedora-setup.sh"
+    "schemes": ["core-unix"]
+}
