@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
 for scheme_name in "$@"
 do
     scheme_name=$(basename "$1" .sh)
@@ -10,6 +12,5 @@ do
     mkdir -p "$working_directory"
     cd "$working_directory"
 
-    dir=$(dirname "$0")
-    "$dir/$scheme_name.sh"
+    "$SCRIPTPATH/$scheme_name.sh"
 done
