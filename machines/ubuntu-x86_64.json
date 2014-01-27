@@ -1,0 +1,7 @@
+{
+    "os": "ubuntu"
+    "version": "12.10"
+    "architecture": "x86_64"
+    "setupScript": "debian-setup.sh"
+    "schemes": ["core-unix", "browser-unix"]
+}
