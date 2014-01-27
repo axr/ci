@@ -1,0 +1,7 @@
+{
+    "os": "osx"
+    "version": "10.9"
+    "architecture": "x86_64"
+    "setupScript": "osx-setup.sh"
+    "schemes": ["core-unix"]
+}
