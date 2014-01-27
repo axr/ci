@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-./common.sh $0
-
 git clone --recursive https://github.com/axr/common.git
 git clone --recursive https://github.com/axr/core.git
 mkdir _build
