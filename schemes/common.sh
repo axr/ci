@@ -7,7 +7,7 @@ if [ -z "$1" ] ; then
 fi
 
 scheme_name=$(basename "$1" .sh)
-working_directory="~/org.axrproject.ci.$scheme_name"
+working_directory="$HOME/org.axrproject.ci.$scheme_name"
 
 rm -rf "$working_directory"
 mkdir -p "$working_directory"
