@@ -1,0 +1,4 @@
+{
+    "artifacts": "dist/*"
+    "script": "browser-unix.sh"
+}

@@ -3,5 +3,5 @@
     "version": 17
     "architecture": "x86_64"
     "setupScript": "fedora-setup.sh"
-    "schemes": ["core-unix"]
+    "schemes": ["core-unix", "browser-unix"]
 }

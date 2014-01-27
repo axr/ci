@@ -3,5 +3,5 @@
     "version": "10.8"
     "architecture": "x86_64"
     "setupScript": "osx-setup.sh"
-    "schemes": ["core-unix"]
+    "schemes": ["core-unix", "browser-unix"]
 }
