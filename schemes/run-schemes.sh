@@ -5,7 +5,6 @@ SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
 for scheme_name in "$@"
 do
-    scheme_name=$(basename "$1" .sh)
     working_directory="$HOME/org.axrproject.ci.$scheme_name"
 
     rm -rf "$working_directory"
